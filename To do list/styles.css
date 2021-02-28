@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Akaya Telivigala', cursive;
+  background-color: #D7D6D0;
+  line-height: 1.5;
+  font-size: 1.50rem;
+}
+h3{
+  font-size: 2rem;
+}
+#section{
+  justify-content: space-between;
+  align-items: center;
+}
+.list-form{
+  margin: 2rem;
+}
+.list-control{
+  margin: 1rem;
+  display: flex;
+}
+.list-group-item{
+  background-color: #F6E46E;
+}
+.list-item{
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.list-item:hover{
+  filter: brightness(110%);
+}
+#input{
+  flex: 1 0 auto;
+}
+.btn {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.btn:hover{
+  filter: brightness(120%);
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s linear;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-secondary,
+.btn-danger{
+flex: 0 0 5rem;
+}
+.list-container{
+  visibility: hidden;
+  margin: 3rem;
+}
+.show-container{
+  visibility: visible;
+}
+.alert-danger,
+.alert-success {
+  visibility: hidden;
+}
+.show-danger,
+.show-success{
+  visibility: visible;
+}
+.fa-edit{
+  color: green;
+}
+.fa-trash{
+  color: red;
+}

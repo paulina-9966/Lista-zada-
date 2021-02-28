@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twoja Lista Zadań</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <section id="section">
+    <form action="" class="list-form">
+      <div class="alert alert-danger text-center" role="alert">
+        Usunięto zadanie
+      </div>
+      <div class="alert alert-success text-center" role="alert">
+        Dodano zadanie
+      </div>
+      <h3 class="text-center">Lista zadań</h3>
+      <div class="list-control">
+        <!-- zzzzzzzzz input zzzzzzzzzzzzz -->
+        <div class="input-group flex-nowrap">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">
+              <i class="fas fa-clipboard-list"></i>
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="np. zrobić zakupy" aria-label="Username" 
+          aria-describedby="addon-wrapping"
+          id="list-input">
+        </div>
+          <!-- zzzzzzzzz input end zzzzzzzzzzzzz -->
+<button type="submit" class="btn btn-secondary">Dodaj</button>
+<button type="button" class="btn btn-danger">Usuń</button>
+      </div>
+    </form>
+    <!-- zzzzzzzzzzz list zzzzzzzzzzzzzzzz -->
+    <div class="list-container show-container">
+      <div class="list">
+        
+           <!-- zzzzzzzzzzz creating a list zzzzzzzzzzz -->
+       
+      </div>
+    </div>
+    
+  </section>
+    <!-- javascript -->
+    <script src="./jquery.3.4.1.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
